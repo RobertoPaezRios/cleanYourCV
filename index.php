@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <?php require "./layout/header.hbs"; ?>
-  
+
   <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="./index.php">Inicio</a>
     <ul class="navbar-nav mr-auto">
