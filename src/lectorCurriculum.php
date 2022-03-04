@@ -1,12 +1,11 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
+<meta charset="UTF-8">
 <?php
 mkdir("upload", 0777);
 session_start();
 
 $cont = 0;
 $idFila = 3;
-
 
 $target_dir = "upload/";
 $targetFila = $target_dir . basename($_FILES["archivo"]["name"]);
@@ -20,19 +19,19 @@ if ($imageFileType == "txt") {
     echo "The file ". htmlspecialchars(basename($_FILES["archivo"]["name"])) . " has been uploaded.";
     $_SESSION['message'] = "Se subió el archivo satisfactoriamente";
     $_SESSION['color'] = "success";
-    $_SESSION["ruta_descargar"] = "./cv_limpio.txt";
-    header("Location: index.php");
+    $_SESSION["ruta_descargar"] = "./src/cv_limpio.txt";
+    header("Location: ../index.php");
   } else {
     echo "The file can't be uploaded";
     $_SESSION['message'] = "Hubo un problema para subir el archivo";
     $_SESSION['color'] = "danger";
   
-    header("Location: index.php");
+    header("Location: ../index.php");
   }
 } else {
   $_SESSION["message"] = "Solo se permiten subir archivos de tipo txt";
   $_SESSION["color"] = "warning";
-  header("Location: index.php");
+  header("Location: ../index.php");
 }
 echo "<br><br>";
 
