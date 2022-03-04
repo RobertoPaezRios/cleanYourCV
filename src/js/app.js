@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
       <div id="jumbo-pregunta" class="jumbotron ml-5 mr-5 mt-5 mb-5">
         <h1 class="display-5">¿Cómo limpiar mi primer CV?</h1>
         <p class="lead">
-          Primero entras en <a href="https://sejna.com/" target="_blank">sejna.com</a> y eliges la opción de convertir pdf a txt
-          , después seleccionas tu archivo txt que descargaste desde <a href="https://sejna.com/" target="_blank">sejna.com</a>
+          Primero entras en <a href="https://sejda.com/" target="_blank">sejda.com</a> y eliges la opción de convertir pdf a txt
+          , después seleccionas tu archivo txt que descargaste desde <a href="https://sejda.com/" target="_blank">sejda.com</a>
           de <strong>InfoJobs</strong> y pulsas "Procesar". Encima del texto "Sube tu Cv!",
           aparecerá un enlace con tu archivo limpio, solo tienes que pulsarlo y ya lo tendras descargado.
         </p>
