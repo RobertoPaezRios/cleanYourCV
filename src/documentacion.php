@@ -1,4 +1,4 @@
-<?php require "./../layout/header.hbs"; ?>
+<?php require "./../layout/header.html"; ?>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="./../index.php">Inicio</a>
@@ -44,4 +44,4 @@
     tienes que entrar a <a href="https://sejda.com" target="_blank">Sejda.com</a> y subir tu archivo Pdf.
   </p><br> -->
   <script src="./js/app.js"></script>
-<?php require "./../layout/footer.hbs"; ?>
+<?php require "./../layout/footer.html"; ?>

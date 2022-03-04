@@ -1,5 +1,5 @@
 <?php session_start(); ?>
-<?php require "./layout/header.hbs"; ?>
+<?php require "./layout/header.html"; ?>
 
   <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="./index.php">Inicio</a>
@@ -35,5 +35,5 @@
       </div>
     </div>
     
-<?php require "./layout/copy.hbs"; ?>
-<?php require "./layout/footer.hbs"; ?>
+<?php require "./layout/copy.html"; ?>
+<?php require "./layout/footer.html"; ?>
