@@ -17,7 +17,8 @@ echo $imageFileType;
 if ($imageFileType == "txt") {
   if (move_uploaded_file($_FILES["archivo"]["tmp_name"], $targetFila)) {
     echo "The file ". htmlspecialchars(basename($_FILES["archivo"]["name"])) . " has been uploaded.";
-    $_SESSION['message'] = "Se subió el archivo satisfactoriamente";
+    $_SESSION['message'] = "Se subió el archivo satisfactoriamente, si no recibió el resultado esperado 
+    vuelva a subir el archivo y comprueba la documentación en la barra superior";
     $_SESSION['color'] = "success";
     $_SESSION["ruta_descargar"] = "./src/cv_limpio.txt";
     header("Location: ../index.php");
